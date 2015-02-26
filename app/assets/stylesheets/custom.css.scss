@@ -27,7 +27,7 @@ textarea {
   text-align: center;
   h1 {
     margin-bottom: 10px;
-}
+  }
 }
 
 /* typography */
@@ -71,7 +71,7 @@ p {
   &:hover {
     color: white;
     text-decoration: none;
-}
+  }
 }
 
 /* footer */
@@ -88,19 +88,19 @@ footer {
 
     &a:hover {
       color: $gray-darker;
-}
-}
+    }
+  }
 
-small {
-  float: left;
-}
-
-ul {
-  float: right;
-  list-style: none;
-  li {
+  small {
     float: left;
-    margin-left: 15px;
-}
-}
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
